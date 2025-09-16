@@ -1,0 +1,9 @@
+pypdf
+langchain
+langchain-huggingface
+langchain-community
+faiss-cpu  
+easyocr
+pdf2image
+pytesseract
+langchain-groq
