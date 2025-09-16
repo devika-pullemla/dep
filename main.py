@@ -6,8 +6,8 @@ from langchain_groq import ChatGroq
 from vector import lib
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 import logging
-logging.basicConfig(level=logging.DEBUG,filename='log.log',filemode='a',
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+#logging.basicConfig(level=logging.DEBUG,filename='log.log',filemode='a',
+#                    format='%(asctime)s - %(levelname)s - %(message)s')
 st.set_page_config(page_title="HrOne Bot", page_icon="🤖")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []

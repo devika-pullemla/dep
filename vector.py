@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from dotenv import load_dotenv
 import os
 load_dotenv()
-read=PdfReader("Information Security Policy.pdf")
+read=PdfReader("sample.pdf")
 n=len(read.pages)
 text=""
 for i in range(n):

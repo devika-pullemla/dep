@@ -7,3 +7,5 @@ easyocr
 pdf2image
 pytesseract
 langchain-groq
+sentence-transformers 
+streamlit
